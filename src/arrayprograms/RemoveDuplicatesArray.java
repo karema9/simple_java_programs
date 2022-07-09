@@ -13,7 +13,7 @@ public class RemoveDuplicatesArray {
 
     public static int removeDuplicates (int[] arr, int n){
         // parameter n represents the length of the array
-        // also think of n as the nunber of items in an array
+        // also think of n as the number of items in an array
         if(n==0 || n==1){
             // If it is the case an array has only one or two elements
             return n;
@@ -21,7 +21,7 @@ public class RemoveDuplicatesArray {
         // create an array with n number of elements, this array will be used
         // to add elements which are not duplicates
         int[] temp = new int[n];
-        // this would be used as a index for the temporary array
+        // this would be used as an index for the temporary array
         int j = 0;
         // Iterate through the array
         // NOTE: n = arr.length
